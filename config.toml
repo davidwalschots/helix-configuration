@@ -1,0 +1,28 @@
+theme = "sonokai"
+
+[editor]
+line-number = "relative"
+
+## Render the open buffers at the top of the editor.
+bufferline = "multiple"
+
+# Always enable true color, even if automatic detection doesn't detect true color capabilities.
+true-color = true
+
+[editor.cursor-shape]
+## Shows a bar when in insert mode. Makes the normal and insert mode different clearer.
+insert = "bar"
+
+[editor.soft-wrap]
+## Soft wraps lines that exceed the view width.
+enable = true
+
+[keys.normal]
+## Binds esc to deselect text and return to the primary cursor location.
+## This is effectively equal to using ; to deselect text and , to collapse multiple cursors into one.
+esc = ["collapse_selection", "keep_primary_selection"]
+
+[keys.normal."space"]
+## Binds opening the file picker in the current buffer's directory. Especially useful for navigating between
+## related Angular html and ts files while proper angular language server integration isn't yet available.
+o = "file_picker_in_current_buffer_directory"

@@ -1,0 +1,50 @@
+[[language]]
+name = "markdown"
+formatter = { command = "prettier.cmd", args = ["--parser", "markdown"] }
+auto-format = true
+
+[[language]]
+name = "html"
+# formatter = { command = "prettier.cmd", args = ["--parser", "html"] }
+formatter = { command = "prettier.cmd", args = ["--parser", "angular"] }
+auto-format = true
+
+[[language]]
+name = "json"
+formatter = { command = "prettier.cmd", args = ["--parser", "json"] }
+auto-format = true
+
+[[language]]
+name = "css"
+formatter = { command = "prettier.cmd", args = ["--parser", "css"] }
+auto-format = true
+
+[[language]]
+name = "scss"
+formatter = { command = "prettier.cmd", args = ["--parser", "scss"] }
+auto-format = true
+
+[[language]]
+name = "graphql"
+formatter = { command = "prettier.cmd", args = ["--parser", "graphql"] }
+auto-format = true
+
+[[language]]
+name = "javascript"
+formatter = { command = "prettier.cmd", args = ["--parser", "typescript"] }
+auto-format = true
+
+[[language]]
+name = "typescript"
+formatter = { command = "prettier.cmd", args = ["--parser", "typescript"] }
+auto-format = true
+
+[[language]]
+name = "tsx"
+formatter = { command = "prettier.cmd", args = ["--parser", "typescript"] }
+auto-format = true
+
+[[language]]
+name = "yaml"
+formatter = { command = "prettier.cmd", args = ["--parser", "yaml"] }
+auto-format = true
